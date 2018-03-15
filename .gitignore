@@ -33,3 +33,4 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 ## CI Files
 #==========
 /user_guide/
+application/.htaccess
