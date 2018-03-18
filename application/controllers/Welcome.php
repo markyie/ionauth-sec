@@ -2,11 +2,11 @@
 
 use SimpleExcel\SimpleExcel;
 
-class Welcome extends CI_Controller {
+class Welcome extends Public_Controller{
 
     public function index()
     {
-        $_SESSION['user'] = 'markyie';    
+        $_SESSION['user'] = 'markyie';      
         $this->load->view('welcome_message');
     }
 
