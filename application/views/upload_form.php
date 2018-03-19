@@ -7,6 +7,7 @@
         <h1>Upload Multiple Files</h1>
         <?php echo form_open_multipart(); ?>
         <p>Upload file(s) :</p>
+        <?php echo form_error('uploadedimages[]'); ?>
         <?php echo form_upload('uploadedimages[]','','multiple') ?>
         <br/>
         <br/>
