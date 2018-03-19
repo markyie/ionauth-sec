@@ -2,10 +2,12 @@
 
 class MY_Controller extends CI_Controller
 {
-  function __construct()
-  {
-    parent::__construct();
-  }
+    protected $data = array();
+    function __construct()
+    {
+        parent::__construct();
+        $this->data['pagetitle'] = 'My CodeIgniter Apps';
+    }
 }
 
 class Admin_Controller extends MY_Controller
